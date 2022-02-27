@@ -1,0 +1,26 @@
+/* grade average count */
+
+#include <stdio.h>
+#include<stdlib.h>
+int main()
+{
+int grade1,grade2,grade3,grade4;
+double average;
+
+printf("inter 1st subject grade :: \n");
+scanf("%d",&grade1);
+printf("inter 2nd subject grade :: \n");
+scanf("%d",&grade2);
+printf("inter 3rd subject grade :: \n");
+scanf("%d",&grade3);
+printf("inter 4th subject grade :: \n");
+scanf("%d",&grade4);
+
+average = ((double)grade1+grade2+grade3+grade4)/4; // can use double as casting variables in int or can use double 4.0 instead 4. 
+
+printf("Result of average value :: %.2lf", average);
+
+return 0;
+
+
+}
