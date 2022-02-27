@@ -1,0 +1,30 @@
+/* Weather Station */
+/* 1st :: the program should calculate and convert the temperature 
+from Celcius Degrees to Fahrenheit Degrees and print it   
+Formula :: T(F) = T(C)*1.8+32
+*/
+/* 2nd :: the program should calculate and convert the temperature 
+from Fahrenheit Degrees to Celcius Degrees and print it   
+Formula :: T(C) = (T(F)-32)/1.8
+*/
+
+#include <stdio.h>
+#include<stdlib.h>
+#include<math.h>
+int main()
+{
+
+int celcius ;
+double fahrenheit;
+
+printf("Inter Weather temperature in celcius:: ");
+scanf("%d",&celcius);
+
+fahrenheit = celcius*1.8+32;
+
+printf("Weather temperature in fahrenheit %.2lf \n",fahrenheit);
+
+return 0;
+
+
+}
