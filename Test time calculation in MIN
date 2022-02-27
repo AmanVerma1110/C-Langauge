@@ -1,0 +1,22 @@
+/* Test time callucation in min  */
+
+#include <stdio.h>
+int main()
+{
+float time1,time2,time3 ;
+
+printf("inter the test time of performance team  \n");
+scanf("%f",&time1);
+printf("inter the test time of OS team \n");
+scanf("%f",&time2);
+printf("inter the test time of FT team \n");
+scanf("%f",&time3);
+ 
+printf("total test time taken in min = %.1f \n",(time1+time2+time3)*60);
+
+
+
+return 0;
+
+
+}
