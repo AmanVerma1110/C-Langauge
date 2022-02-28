@@ -7,13 +7,13 @@ int main()
 int grade1,grade2,grade3,grade4;
 double average;
 
-printf("inter 1st subject grade :: \n");
+printf("enter 1st subject grade :: \n");
 scanf("%d",&grade1);
-printf("inter 2nd subject grade :: \n");
+printf("enter 2nd subject grade :: \n");
 scanf("%d",&grade2);
-printf("inter 3rd subject grade :: \n");
+printf("enter 3rd subject grade :: \n");
 scanf("%d",&grade3);
-printf("inter 4th subject grade :: \n");
+printf("enter 4th subject grade :: \n");
 scanf("%d",&grade4);
 
 average = ((double)grade1+grade2+grade3+grade4)/4; // can use double as casting variables in int or can use double 4.0 instead 4. 
