@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+// Salary [$/Hours]
+// Total hours worked in a month [Hours]
+
+int main ()
+
+{
+
+float salary;
+int totalHours;
+
+printf("Enter your Salary per Hour :: ");
+scanf("%f",&salary);
+
+printf("Enter the number of hours you worked in the last month ::");
+scanf("%d",&totalHours);
+
+printf("Your expected salary should be :: %.2f \n", salary*totalHours);
+
+return 0;
+
+	
+}
