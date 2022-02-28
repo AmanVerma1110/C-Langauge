@@ -9,11 +9,11 @@ int main()
 {
 	int an,a1,n,d;
 	
-	printf("inter the first term in the sequence :: a1 \n");
+	printf("enter the first term in the sequence :: a1 \n");
 	scanf("%d",&a1);
-	printf("inter the common difference between terms :: d \n");
+	printf("enter the common difference between terms :: d \n");
 	scanf("%d",&d);
-	printf("inter the munber of term :: n \n");
+	printf("enter the munber of term :: n \n");
 	scanf("%d",&n);
 	
 	an = a1+(n-1)*d;
