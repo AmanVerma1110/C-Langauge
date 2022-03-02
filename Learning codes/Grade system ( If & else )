@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+
+int main()
+{
+	char Grade;
+	
+	printf("Enter the grade A-F :: ");
+	scanf("%c",&Grade);
+	
+	if(Grade == 'A')
+	printf("Number between 90-100 \n");
+	
+	else if(Grade == 'B')
+    printf("Number between 80-89 \n");
+	
+	else if(Grade == 'C')
+    printf("Number between 70-79 \n");
+	
+	else if(Grade == 'D')
+    printf("Number between 60-69 \n");
+	
+	else
+	printf("Error.. please Enter again" );
+		
+	return 0 ;
+	
+}
