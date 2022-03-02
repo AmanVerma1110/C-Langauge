@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+
+int main()
+{
+	char Grade;
+	
+	printf("Enter the grade A-F :: ");
+	scanf("%c",&Grade);
+	
+	switch (Grade) //Specifying Variable
+	{
+		case 'A' :
+			printf("Number between 90-100 \n");
+			break;
+		case 'B' : 
+		    printf("Number between 80-89 \n");
+		    break;
+		case 'C':
+		    printf("Number between 70-79 \n");
+		    break;
+		case 'D':
+		    printf("Number between 60-69 \n");
+		    break;
+		default :
+		    printf("Error.. please Enter again" ); 
+	 } 
+		
+	return 0 ;
+	
+}
