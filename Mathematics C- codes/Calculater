@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main ()
+
+{
+	int a,b,calc;
+	printf("Enter the first number :: ");
+	scanf("%d",&a);
+	printf("Enter the Second number :: ");
+	scanf("%d",&b);
+	
+	printf(" For Add please enter :: 1 \n ");
+	printf("For Subtract please enter :: 2 \n ");
+	printf("For Multiply please enter :: 3 \n ");
+	printf("For Devides please enter :: 4 \n ");
+	scanf("%d",&calc);
+	
+	switch(calc)
+	{
+		case 1 :
+		printf("Result is %d",a+b);
+		break; 
+		case 2 :
+        printf("Result is %d",a-b);	
+		break;
+		case 3 :
+        printf("Result is %d",a*b);
+		break;	
+		case 4 :
+        printf("Result is %.2lf", (float)a/b);	 
+		break;		
+	}
+	return 0;
+	
+}
