@@ -29,7 +29,9 @@ int main ()
 		break;	
 		case 4 :
         printf("Result is %.2lf", (float)a/b);	 
-		break;		
+		break;	
+		default : 
+		printf("Wrong input enter again .......");	
 	}
 	return 0;
 	
