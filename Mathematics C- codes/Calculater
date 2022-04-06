@@ -22,13 +22,13 @@ int main ()
 		printf("Result is %d",a+b);
 		break; 
 		case 2 :
-        printf("Result is %d",a-b);	
+                printf("Result is %d",a-b);	
 		break;
 		case 3 :
-        printf("Result is %d",a*b);
+                printf("Result is %d",a*b);
 		break;	
 		case 4 :
-        printf("Result is %.2lf", (float)a/b);	 
+                 printf("Result is %.2lf", (float)a/b);	 
 		break;	
 		default : 
 		printf("Wrong input enter again .......");	
