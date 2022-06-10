@@ -1,0 +1,20 @@
+//To compute and display the sum of digits of a given 5 digit number.
+// Solution 
+
+#include<stdio.h>
+#include<stdlib.h>
+ 
+int main()
+{
+    unsigned int i,sum;
+    printf("Enter The Number :\t");
+    scanf("%d",&i);
+     while(i != 0)
+	 {
+        sum += i % 10;
+        i = i/10;
+    }
+    printf("Digit sum: %d", sum);
+    
+    return 0;
+}
